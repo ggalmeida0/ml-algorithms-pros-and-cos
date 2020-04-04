@@ -19,7 +19,7 @@
 
 ## Linear Models (Classification and Regression):
 ### Meaningful Parameters:
-- **Regularization parameter**,simply a parameter that determines how much complexity the model is allowed to have. But more in dept is a parameter that determines how big the range of allowed values is for w in the formula: \( hat{y} %)\
+- **Regularization parameter**,simply a parameter that determines how much complexity the model is allowed to have. But more in dept is a parameter that determines how big the range of allowed values is for w in the formula: \( hat{y} \)
 
 
 ## Credits:
