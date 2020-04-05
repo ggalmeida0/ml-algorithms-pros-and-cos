@@ -17,10 +17,17 @@
 - **Can be very slow** - When the dataset is very big in number of samples or features this algorithm takes a long time to make predictions.
 - **Performs pourly with sparse datasets** - When there are a lot of data points equal to zero theres a significant performance drop in KNNs.
 
-## Linear Models (Classification and Regression):
+## Linear Models (Linear Regression, Support Vector Machine, Ridge, Logistic Regression etc):
 ### Meaningful Parameters:
-- **Regularization parameter**,simply a parameter that determines how much complexity the model is allowed to have. But more in dept is a parameter that determines how big the range of allowed values is for w in the formula: ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Chat%7By%7D%20%3D%20w%5Bi%5D%20%5Ccdot%20x%5Bi%5D%20&plus;%20b)
+- **Regularization parameter**,simply a parameter that determines how much complexity the model is allowed to have. But more in dept is a parameter that determines how big the range of allowed values is for _w_ in the formula: ![equation](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Chat%7By%7D%20%3D%20w%5Bi%5D%20%5Ccdot%20x%5Bi%5D%20&plus;%20b)
+- **L1 or L2 regularization**, these are regularization criteria that helps the model to not overfit. Generally if you believe that only a few features of the data is imporatant then use L1, otherwise use L2.
 
+### Strengths:
+- **Very Fast** - Linear models have very fast training time and prediction time.
+- **Scalable** - Linear models are good at scaling to huge datsets
+
+### Weaknesses:
+- **Perform badly on lower dimensions** Linear models tend to perform well on datasets with lots of features compared to the sample size but it performs poorly on lower dimensional data.
 
 ## Credits:
 - *Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido*
