@@ -41,7 +41,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 ### Weaknesses:
 - **Assume independence** - The naive bayes classifier assumes that every variable is independent of each other, that's why the name is "naive". Thus it performs badly on datasets that have a lot of variables that depend on each other, a example would be a picture, where every pixel is dependent on each other to form a image.
 
-## Decission Trees:
+## Decision Trees:
 ### Meaningful Parameters:
 - **Pruning parameters**, a parameter that reflects on the complexity of the tree by reducing the number of nodes in the tree.
 
