@@ -2,7 +2,7 @@
 A summarization of the pros and cons of the machine learning algorithms presented in the book Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido
 
 
-## K-Nearest Neighbors (Classification and Regression):
+## K-Nearest Neighbors (classification and regression):
 ### Meaninful Parameters:
 - **Number of neighbors**, the number of samples closest to the point we're predicting.
   - How to tune it: *Low numbers ofter work best but experimentation is required*
@@ -29,7 +29,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 ### Weaknesses:
 - **Perform badly on lower dimensions** Linear models tend to perform well on datasets with lots of features compared to the sample size but it performs poorly on lower dimensional data.
 
-## Naive Bayes Classifiers:
+## Naive Bayes Classifiers (only classification):
 ### Meaningful Parameters:
 - **Alpha**, controls the complexity of the model, the higher the alpha the lower the complexity.
 
@@ -41,7 +41,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 ### Weaknesses:
 - **Assume independence** - The naive bayes classifier assumes that every variable is independent of each other, that's why the name is "naive". Thus it performs badly on datasets that have a lot of variables that depend on each other, a example would be a picture, where every pixel is dependent on each other to form a image.
 
-## Decision Trees:
+## Decision Trees(regression and classification):
 ### Meaningful Parameters:
 - **Pruning parameters**, a parameter that reflects on the complexity of the tree by reducing the number of nodes in the tree.
 
