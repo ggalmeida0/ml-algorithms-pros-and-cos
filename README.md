@@ -1,5 +1,5 @@
 # Machine Learning Algorithms - Strenghts and Weaknesses
-
+A summarization of the pros and cons of the machine learning algorithms presented in the book Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido
 
 
 ## K-Nearest Neighbors (Classification and Regression):
@@ -29,5 +29,28 @@
 ### Weaknesses:
 - **Perform badly on lower dimensions** Linear models tend to perform well on datasets with lots of features compared to the sample size but it performs poorly on lower dimensional data.
 
-## Credits:
+## Naive Bayes Classifiers:
+### Meaningful Parameters:
+- **Alpha**, controls the complexity of the model, the higher the alpha the lower the complexity.
+
+### Strengths:
+- **Extremely fast** - NB classifiers are even faster than linear classifiers both on training and predicting, thus they can be used to get faster results where even the linear models take a long time.
+- **Robust parameter settings** - NB classifiers can perform relatevely well even the parameter alpha isn't fine tuned.
+- **Scalable** - Just like linear models NB classifiers are very scallable to big datasets.
+
+### Weaknesses:
+- **Assume independence** - The naive bayes classifier assumes that every variable is independent of each other, that's why the name is "naive". Thus it performs badly on datasets that have a lot of variables that depend on each other, a example would be a picture, where every pixel is dependent on each other to form a image.
+
+## Decission Trees:
+### Meaningful Parameters:
+- **Pruning parameters**, a parameter that reflects on the complexity of the tree by reducing the number of nodes in the tree.
+
+### Strengths:
+- **Simply intrepreted** - Decision trees are one of the most explainable machine learning algorithms to non techinical people.
+- **Scalable** - Decision trees are completely unvariant scaling, so it can be applied on very big datasets.
+
+### Weaknesses:
+- **Overfiting** - Decision trees are very easy to overfit the training data, even when you ajust the pruning parameter.
+
+## Credit:
 - *Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido*
