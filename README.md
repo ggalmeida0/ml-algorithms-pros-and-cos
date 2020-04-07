@@ -52,5 +52,43 @@ A summarization of the pros and cons of the machine learning algorithms presente
 ### Weaknesses:
 - **Overfiting** - Decision trees are very easy to overfit the training data, even when you ajust the pruning parameter.
 
+## Random Forests( classification and regression):
+### Meaninful Parameters:
+- **Number of trees** - It determines the number of trees in the forest, the more trees the more overfitting is reduced which means better scores. But at sime point the benefits of score and rescourses such as memory/time must be weighted in.
+- **Max features** - It contribute to the randomness of the model by limiting the number of features that each tree is allowed to account for. In general it's good enough to leave the default values for this parameter.
+- **Max depth** - This determines the maximum depth for each tree in the forest. It is the same as the parameter in the decision tree.
+
+### Strengths:
+- **Very powerfull and robust** - Random forests are one of the most popular and successfull machine learning models and they don't require alot of parameter tunning to perform well.
+- **All benefits of decision trees but bettter** - Random forests were made to fix the big problem that a single tree had: overfitting. Thus all the benefits of a decision tree carries over to the forest but with the added bonus of not overfitting as often.
+
+### Weaknesses:
+- **Lots of recsources to build** - It can take a lot of recsources to build the forest, but theres is a workarounf which is to use multiple cores of the CPU when building it.
+- **Bad on sparse high dimesions** - Random forests perform badly on the higher dimenssions sparse datasets, instead the best option might be a linear model.
+
+## Gradient Boosting Machines:
+### Meaningful Paramaters:
+- **Number of Trees** - Differently from random forests, the number of trees in gradient boosting increases the complexity of the model, thus at some point it will start to overfit. A way to tunne it is to make it as high as possible then tune the other parameter.
+- **Leaning Rate** - The learning rate is a factor of how much the following tree is learning from the previous tree. It also increases the complexity of the model. After tunning the number of trees start to tune the learning rate.
+- **Max depth** - The depth of each tree, it 
+
+### Strengths:
+- **Extremely powerfull** - When tunned correctly it is one of the most powerfull machine learning models
+- **Have tree based model strengths** - It is very good at scaling and perform well on mix of continuous and binary data just like other tree based models.
+
+### Weaknesses:
+- **Difficult to tune parameters** - It is not straight forward to tune all the parameters correctly since there's a lot different ways to change the complexity.
+- **Long training time** - It can take a long time to train the gradient boosting.
+
+## Kernelized Support Vector Machines:
+
+### Meaninful Parameters:
+
+### Strengths:
+- **Flexible decision boundaries** - For low dimenssions or high dimessions it can solve a lot of different problems.
+
+### Weaknesses:
+- **Needs
+-**
 ## Credit:
 - *Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido*
