@@ -80,15 +80,34 @@ A summarization of the pros and cons of the machine learning algorithms presente
 - **Difficult to tune parameters** - It is not straight forward to tune all the parameters correctly since there's a lot different ways to change the complexity.
 - **Long training time** - It can take a long time to train the gradient boosting.
 
-## Kernelized Support Vector Machines:
+## Kernelized Support Vector Machines (classification or regression):
 
 ### Meaninful Parameters:
+- **Kernel** - Which kernel to use and the parameters involved with the specifi kernel.
+- **C** - C is the regularization parameter, it controls the complexity of the model helping it to not overfit.
 
 ### Strengths:
 - **Flexible decision boundaries** - For low dimenssions or high dimessions it can solve a lot of different problems.
+- **Good with similar units** - If the features are of the same or similar units it might be worth trying a kernelized SVM
 
 ### Weaknesses:
-- **Needs
--**
+- **Needs data preprocessing** - In order to the model to perform at its best the data needs to be put into somewhat of the same scale. In other words the model underperforms with a huge range of magnitude for a feature.
+- **Uses lots of recsources** - It can utilize alot of memory and runtime.
+- **Hard to tune parameters** - It can be hard to choose the right kernel and parameters.
+
+## Neural Networks/Multi Layer Perceptrons (classification or regression):
+
+## Meaning Parameters:
+- **Number of hidden layers and units per layer** - These parameters regulate the complexity of the model,altough there is no one way to find these parameters in the book it is reccomended that you could either start from 2 hidden layers and increase it, or you could start with the NN overfitted to make sure that ir can solve the problem and then reduce the size of the NN.
+
+### Strengths:
+- **Solve lots of problems** - NNs are able to solve a lot of problems that other models can't due to its capacity to be very complex capture information on large amounts of data.
+- **Usually is the best** - Given computational time, data, and paremeter tuning NNs usually beat other models.
+
+### Weaknesses:
+- **Uses lots of recsources** - Can use up a lot of computation and training time.
+- **Needs lots of data preprocessing** - Like SVMs it needs lots of data preprocessing.
+- **Needs lots of parameter tunning** - Also like SVMs neural networks need a lot of parameter tunning and it's usually not that straigth forward.
+
 ## Credit:
 - *Introduction to Machine Learning with Python by Andreas C. Muller & Sarah Guido*
