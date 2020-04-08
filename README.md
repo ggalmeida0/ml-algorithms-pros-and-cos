@@ -66,7 +66,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 - **Lots of recsources to build** - It can take a lot of recsources to build the forest, but theres is a workarounf which is to use multiple cores of the CPU when building it.
 - **Bad on sparse high dimesions** - Random forests perform badly on the higher dimenssions sparse datasets, instead the best option might be a linear model.
 
-## Gradient Boosting Machines:
+## Gradient Boosting Machines (classification or regression):
 ### Meaningful Paramaters:
 - **Number of Trees** - Differently from random forests, the number of trees in gradient boosting increases the complexity of the model, thus at some point it will start to overfit. A way to tunne it is to make it as high as possible then tune the other parameter.
 - **Leaning Rate** - The learning rate is a factor of how much the following tree is learning from the previous tree. It also increases the complexity of the model. After tunning the number of trees start to tune the learning rate.
