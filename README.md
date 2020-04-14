@@ -97,7 +97,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 
 ## Neural Networks/Multi Layer Perceptrons (classification or regression):
 
-## Meaning Parameters:
+### Meaning Parameters:
 - **Number of hidden layers and units per layer** - These parameters regulate the complexity of the model,altough there is no one way to find these parameters in the book it is reccomended that you could either start from 2 hidden layers and increase it, or you could start with the NN overfitted to make sure that ir can solve the problem and then reduce the size of the NN.
 
 ### Strengths:
