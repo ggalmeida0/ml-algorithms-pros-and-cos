@@ -70,7 +70,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 ### Meaningful Paramaters:
 - **Number of Trees** - Differently from random forests, the number of trees in gradient boosting increases the complexity of the model, thus at some point it will start to overfit. A way to tunne it is to make it as high as possible then tune the other parameter.
 - **Leaning Rate** - The learning rate is a factor of how much the following tree is learning from the previous tree. It also increases the complexity of the model. After tunning the number of trees start to tune the learning rate.
-- **Max depth** - The depth of each tree, it 
+- **Max depth** - This determines the maximum depth for each tree in the forest. It is the same as the parameter in the decision tree
 
 ### Strengths:
 - **Extremely powerfull** - When tunned correctly it is one of the most powerfull machine learning models
