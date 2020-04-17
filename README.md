@@ -73,7 +73,7 @@ A summarization of the pros and cons of the machine learning algorithms presente
 - **Max depth** - This determines the maximum depth for each tree in the forest. It is the same as the parameter in the decision tree
 
 ### Strengths:
-- **Extremely powerfull** - When tunned correctly it is one of the most powerfull machine learning models
+- **Extremely powerful** - When tunned correctly it is one of the most powerfull machine learning models
 - **Have tree based model strengths** - It is very good at scaling and perform well on mix of continuous and binary data just like other tree based models.
 
 ### Weaknesses:
